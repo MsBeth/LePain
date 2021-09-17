@@ -1,5 +1,3 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap');
 
 
@@ -8,10 +6,34 @@ body {
 }
 
 #showcase {
-    background-image: url("Images/header.jpg");
+    background-image: url("Images2/header.jpg");
     height: 95vh;
     background-size: cover;
     background-position: center;
-    color: fff;
+    color: #fff;
+}
 
+
+@media (max-width: 768px) {
+    #showcase {
+     padding: 0 100px;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-text {
+        height: 110px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-text {
+        height: 90px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .card-text {
+        height: 70px;
+    }
 }
